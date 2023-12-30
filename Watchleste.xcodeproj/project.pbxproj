@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1383172B3F9E8500F68E42 /* Watchleste Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DF1383162B3F9E8500F68E42 /* Watchleste Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF13831C2B3F9E8500F68E42 /* WatchlesteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13831B2B3F9E8500F68E42 /* WatchlesteApp.swift */; };
+		DF13831E2B3F9E8500F68E42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13831D2B3F9E8500F68E42 /* ContentView.swift */; };
+		DF1383202B3F9E8900F68E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF13831F2B3F9E8900F68E42 /* Assets.xcassets */; };
+		DF1383232B3F9E8900F68E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1383222B3F9E8900F68E42 /* Preview Assets.xcassets */; };
+		DF13832F2B3FA38A00F68E42 /* librustic_mountain_lib_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF13832E2B3FA36D00F68E42 /* librustic_mountain_lib_universal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1383182B3F9E8500F68E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF13830A2B3F9E8400F68E42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1383152B3F9E8500F68E42;
+			remoteInfo = "Watchleste Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF1383292B3F9E8900F68E42 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DF1383172B3F9E8500F68E42 /* Watchleste Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF1383102B3F9E8500F68E42 /* Watchleste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watchleste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1383162B3F9E8500F68E42 /* Watchleste Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watchleste Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF13831B2B3F9E8500F68E42 /* WatchlesteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlesteApp.swift; sourceTree = "<group>"; };
+		DF13831D2B3F9E8500F68E42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF13831F2B3F9E8900F68E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1383222B3F9E8900F68E42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF13832E2B3FA36D00F68E42 /* librustic_mountain_lib_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librustic_mountain_lib_universal.a; path = "rustic-mountain/librustic_mountain_lib_universal.a"; sourceTree = "<group>"; };
+		DF1383302B3FA3E200F68E42 /* Watchleste Watch App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watchleste Watch App-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1383132B3F9E8500F68E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF13832F2B3FA38A00F68E42 /* librustic_mountain_lib_universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1383092B3F9E8400F68E42 = {
+			isa = PBXGroup;
+			children = (
+				DF13831A2B3F9E8500F68E42 /* Watchleste Watch App */,
+				DF1383112B3F9E8500F68E42 /* Products */,
+				DF13832D2B3FA36D00F68E42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1383112B3F9E8500F68E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF1383102B3F9E8500F68E42 /* Watchleste.app */,
+				DF1383162B3F9E8500F68E42 /* Watchleste Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF13831A2B3F9E8500F68E42 /* Watchleste Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DF13831B2B3F9E8500F68E42 /* WatchlesteApp.swift */,
+				DF13831D2B3F9E8500F68E42 /* ContentView.swift */,
+				DF13831F2B3F9E8900F68E42 /* Assets.xcassets */,
+				DF1383212B3F9E8900F68E42 /* Preview Content */,
+				DF1383302B3FA3E200F68E42 /* Watchleste Watch App-Bridging-Header.h */,
+			);
+			path = "Watchleste Watch App";
+			sourceTree = "<group>";
+		};
+		DF1383212B3F9E8900F68E42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF1383222B3F9E8900F68E42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF13832D2B3FA36D00F68E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF13832E2B3FA36D00F68E42 /* librustic_mountain_lib_universal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF13830F2B3F9E8500F68E42 /* Watchleste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF13832A2B3F9E8900F68E42 /* Build configuration list for PBXNativeTarget "Watchleste" */;
+			buildPhases = (
+				DF13830E2B3F9E8500F68E42 /* Resources */,
+				DF1383292B3F9E8900F68E42 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1383192B3F9E8500F68E42 /* PBXTargetDependency */,
+			);
+			name = Watchleste;
+			productName = Watchleste;
+			productReference = DF1383102B3F9E8500F68E42 /* Watchleste.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DF1383152B3F9E8500F68E42 /* Watchleste Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1383262B3F9E8900F68E42 /* Build configuration list for PBXNativeTarget "Watchleste Watch App" */;
+			buildPhases = (
+				DF1383122B3F9E8500F68E42 /* Sources */,
+				DF1383132B3F9E8500F68E42 /* Frameworks */,
+				DF1383142B3F9E8500F68E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watchleste Watch App";
+			productName = "Watchleste Watch App";
+			productReference = DF1383162B3F9E8500F68E42 /* Watchleste Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF13830A2B3F9E8400F68E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF13830F2B3F9E8500F68E42 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DF1383152B3F9E8500F68E42 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = DF13830D2B3F9E8400F68E42 /* Build configuration list for PBXProject "Watchleste" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF1383092B3F9E8400F68E42;
+			productRefGroup = DF1383112B3F9E8500F68E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF13830F2B3F9E8500F68E42 /* Watchleste */,
+				DF1383152B3F9E8500F68E42 /* Watchleste Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF13830E2B3F9E8500F68E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1383142B3F9E8500F68E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1383232B3F9E8900F68E42 /* Preview Assets.xcassets in Resources */,
+				DF1383202B3F9E8900F68E42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1383122B3F9E8500F68E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF13831E2B3F9E8500F68E42 /* ContentView.swift in Sources */,
+				DF13831C2B3F9E8500F68E42 /* WatchlesteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF1383192B3F9E8500F68E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1383152B3F9E8500F68E42 /* Watchleste Watch App */;
+			targetProxy = DF1383182B3F9E8500F68E42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF1383242B3F9E8900F68E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF1383252B3F9E8900F68E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF1383272B3F9E8900F68E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watchleste Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HX42H6A9N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchleste;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/rustic-mountain",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.r58playz.Watchleste.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Watchleste Watch App/Watchleste Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		DF1383282B3F9E8900F68E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watchleste Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HX42H6A9N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchleste;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/rustic-mountain",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.r58playz.Watchleste.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Watchleste Watch App/Watchleste Watch App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		DF13832B2B3F9E8900F68E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HX42H6A9N;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchleste;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.r58playz.Watchleste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF13832C2B3F9E8900F68E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HX42H6A9N;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchleste;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.r58playz.Watchleste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF13830D2B3F9E8400F68E42 /* Build configuration list for PBXProject "Watchleste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1383242B3F9E8900F68E42 /* Debug */,
+				DF1383252B3F9E8900F68E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1383262B3F9E8900F68E42 /* Build configuration list for PBXNativeTarget "Watchleste Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1383272B3F9E8900F68E42 /* Debug */,
+				DF1383282B3F9E8900F68E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF13832A2B3F9E8900F68E42 /* Build configuration list for PBXNativeTarget "Watchleste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF13832B2B3F9E8900F68E42 /* Debug */,
+				DF13832C2B3F9E8900F68E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF13830A2B3F9E8400F68E42 /* Project object */;
+}
